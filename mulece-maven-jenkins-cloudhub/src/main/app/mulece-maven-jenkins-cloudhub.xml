@@ -13,5 +13,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <logger message="Got Request from #[message.inboundProperties.'http.remote.address']" level="INFO" doc:name="Logger"/>
         <logger message="Message from prop :  ${message}" level="INFO" doc:name="Logger"/>
+        <set-payload value="#['success']" doc:name="Set Payload"/>
     </flow>
 </mule>
