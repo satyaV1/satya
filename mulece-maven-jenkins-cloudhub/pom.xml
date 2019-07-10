@@ -125,7 +125,7 @@
 					<region>${region}</region>
 					<targetType>server</targetType>
 					<redeploy>true</redeploy>
-					<applicationName>${project.artifactId}-${env}</applicationName>
+					<applicationName>mule_maven_jenkins_adt_satya</applicationName>
 					<workerType>${worker.type}</workerType>
 					<properties>
 						<env>${env}</env>								
