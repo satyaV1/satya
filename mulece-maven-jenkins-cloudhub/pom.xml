@@ -3,10 +3,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ad</groupId>
-	<artifactId>mulemavensatya</artifactId>
+	<artifactId>mulece-maven-jenkins-cloudhub</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
-	<name>mulemavensatya</name>
+	<name>mulece-maven-jenkins-cloudhub</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -125,7 +125,7 @@
 					<region>${region}</region>
 					<targetType>server</targetType>
 					<redeploy>true</redeploy>
-					<applicationName>mulemavensatya</applicationName>
+					<applicationName>mulece-maven-jenkins-cloudhub</applicationName>
 					<workerType>${worker.type}</workerType>
 					<properties>
 						<env>${env}</env>								
